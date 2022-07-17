@@ -1,0 +1,100 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
+body{
+  background: -webkit-linear-gradient(left, #25c481, #25b7c4);
+  background: linear-gradient(to right, #25c481, #25b7c4);
+  font-family: 'Roboto', sans-serif;
+}
+section{
+  margin: 50px;
+}
+h1{
+  font-size: 30px;
+  color: #fff;
+  /*将字母变大写*/
+  text-transform: uppercase;
+  font-weight: 300;
+  /*文本排列居中*/
+  text-align: center;
+  /*外边距底部*/
+  margin-bottom: 15px;
+}
+table{
+  width:100%;
+  /*表格布局： 固定*/
+  table-layout: fixed;
+  /*合并边框，共用一个边框*/
+  border-collapse: collapse;
+  /*设置行与单元格边框的间距*/
+  border-spacing: 0;
+}
+.tbl-header{
+  background-color: rgba(255,255,255,0.3);
+}
+/*表身样式*/
+.tbl-content{
+  height:300px;
+  overflow-x:auto;
+  margin-top: 0;
+  border: 1px solid rgba(255,255,255,0.3);
+}
+th{
+  padding: 20px 15px;
+  text-align: left;
+  /*字体粗细*/
+  font-weight: 500;
+  font-size: 12px;
+  color: #fff;
+  text-transform: uppercase;
+}
+td{
+  padding: 15px;
+  text-align: left;
+  /*元素垂直样式：居中*/
+  vertical-align:middle;
+  font-weight: 300;
+  font-size: 12px;
+  color: #fff;
+  border-bottom: solid 1px rgba(255,255,255,0.1);
+}
+
+.made-with-love {
+  margin-top: 40px;
+  padding: 10px;
+  clear: left;
+  text-align: center;
+  font-size: 10px;
+  font-family: arial, serif;
+  color: #fff;
+}
+.made-with-love i {
+  /*字体样式是否倾斜*/
+  font-style: normal;
+  color: #F50057;
+  font-size: 14px;
+  position: relative;
+  top: 1px;
+}
+.made-with-love a {
+  color: #fff;
+  /*文本修饰无*/
+  text-decoration: none;
+}
+.made-with-love a:hover {
+  /*文本修饰：下划线*/
+  text-decoration: underline;
+}
+
+
+/* 用于webkit浏览器 自定义滚动条for custom scrollbar for webkit browser*/
+/*滚动条*/
+::-webkit-scrollbar {
+  width: 6px;
+}
+/*滚动条轨道*/
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+/*滚动条上的滚动滑块*/
+::-webkit-scrollbar-thumb {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
